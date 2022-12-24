@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$USER_HOME$/hoc_tap/Flutter/base_getx_project/android" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Public/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus-8.0.0/android" />
+            <option value="$USER_HOME$/Public/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-3.0.2/android" />
+            <option value="$USER_HOME$/Public/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.22/android" />
+            <option value="$USER_HOME$/Public/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-8.3.0/android" />
+            <option value="$USER_HOME$/Public/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_android-6.0.22/android" />
+            <option value="$USER_HOME$/hoc_tap/Flutter/base_getx_project/android" />
+            <option value="$USER_HOME$/hoc_tap/Flutter/base_getx_project/android/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

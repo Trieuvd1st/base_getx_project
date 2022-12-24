@@ -1,0 +1,53 @@
+name: base_getx_project
+description: Flutter base project GetX made by Trieuvd
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #----------------------
+  #state_management
+  provider: ^6.0.4
+  get: ^4.6.5
+  #storage
+  get_storage: ^2.0.3
+  #locale
+  intl: ^0.17.0
+  #rx
+  #rxdart: ^0.27.7
+  #permission
+  permission_handler: ^8.1.4+2
+  #info
+  device_info_plus: ^8.0.0
+  package_info_plus: ^3.0.2
+  #network
+  http: ^0.13.5
+  dio: ^4.0.6
+  retrofit: ^3.3.1
+  #other
+  equatable: ^2.0.3
+  path: ^1.8.2
+  path_provider: ^2.0.11
+  flutter_easyloading: 3.0.5
+  logger: 1.1.0
+  url_launcher: ^6.1.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

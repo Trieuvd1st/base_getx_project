@@ -1,5 +1,5 @@
 import 'dart:ui';
 
-class Colors {
+class Colorz {
   static const primary = Color(0xFF00AA6E);
 }

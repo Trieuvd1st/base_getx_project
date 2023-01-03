@@ -1,10 +1,15 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(appBar: AppBar(title: Text("Splash")), body:
+      Column(
+        children: [
+          Text("123"),
+        ],
+      ),);
   }
 
 }

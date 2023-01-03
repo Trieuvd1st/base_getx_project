@@ -12,6 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Internationalization
+  flutter_localizations:
+    sdk: flutter
+
   cupertino_icons: ^1.0.2
   #----------------------
   #state_management

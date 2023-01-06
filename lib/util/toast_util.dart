@@ -42,7 +42,7 @@ class _ToastState extends State<Toast> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
   }
 
   void showToast(String msg,
@@ -77,14 +77,14 @@ class _ToastState extends State<Toast> with WidgetsBindingObserver {
     return [
       AnimatedOpacity(
         opacity: _visible ? 1 : 0,
-        duration: Duration(milliseconds: 300),
+        duration: const Duration(milliseconds: 300),
         child: Container(
-            padding: EdgeInsets.all(13),
+            padding: const EdgeInsets.all(13),
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(6), color: Colors.grey),
             child: Text(
               _msg ?? '',
-              style: TextStyle(color: Colors.white, fontSize: 14),
+              style: const TextStyle(color: Colors.white, fontSize: 14),
             )),
       ).intrinsicWidth().positioned(
         top: top,
@@ -101,7 +101,7 @@ class _ToastState extends State<Toast> with WidgetsBindingObserver {
   @override
   void dispose() {
     _timer?.cancel();
-    WidgetsBinding.instance?.removeObserver(this);
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 }

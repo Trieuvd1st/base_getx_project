@@ -1,4 +1,3 @@
-import 'package:base_getx_project/res/image.dart';
 import 'package:base_getx_project/ui/widget/app_bar.dart';
 import 'package:flutter/material.dart';
 

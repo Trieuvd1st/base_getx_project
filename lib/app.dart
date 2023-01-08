@@ -1,3 +1,4 @@
+import 'package:base_getx_project/manage/di.dart';
 import 'package:base_getx_project/util/widget_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -11,6 +12,7 @@ import 'util/toast_util.dart';
 void runMyApp(Flavor flavor) {
   WidgetsFlutterBinding.ensureInitialized();
   buildConfig.flavor = flavor;
+  injectDependencies();
   runApp(const MyApp());
 }
 

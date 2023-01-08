@@ -1,4 +1,5 @@
 import 'package:base_getx_project/ui/widget/app_bar.dart';
+import 'package:base_getx_project/ui/widget/button_common.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -9,7 +10,8 @@ class SplashPage extends StatelessWidget {
       appBar: transparentAppbar,
       body: Column(
         children: [
-          Text("123")
+          Text("123"),
+          ButtonCommon(onPressed: () {}, text: '取得する')
         ],
       ),
     );
